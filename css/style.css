@@ -9554,6 +9554,7 @@ h5,
     color: black !important;
     font-size: 120px;
   }
+  
 }
 .ftco-navbar-light .navbar-brand {
   color: #fff;
@@ -9569,7 +9570,7 @@ h5,
   padding-bottom: 0.9rem;
   padding-left: 20px;
   padding-right: 20px;
-  color: rgb(0 15 50);
+  color: #f86f2d;
   font-weight: 400;
   opacity: 1 !important;
 }
@@ -9761,13 +9762,14 @@ h5,
 }
 .hero-wrap .overlay {
   position: absolute;
-  top: 0;
+  width: 100%;
+  height: 865px;
+  /* top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
-  content: '';
-  opacity: 0;
-  background: #000;
+  bottom: 0; */
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
 .slider-text {
